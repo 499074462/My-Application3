@@ -63,4 +63,8 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    //主要用来辅助监听App的前后台切换
+    implementation ("androidx.lifecycle:lifecycle-process:2.6.2") // 核心依赖
+    implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2") // 推荐的扩展功能
 }
