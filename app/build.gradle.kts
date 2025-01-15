@@ -66,4 +66,7 @@ dependencies {
 
     //Retrofit RxJava Adapter
     implementation ("com.squareup.retrofit2:adapter-rxjava2:2.9.0")
+    //主要用来辅助监听App的前后台切换
+    implementation ("androidx.lifecycle:lifecycle-process:2.6.2") // 核心依赖
+    implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2") // 推荐的扩展功能
 }
