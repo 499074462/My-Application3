@@ -15,6 +15,10 @@ import com.youshu.mmp.ui999.theme.MyApplicationTheme
 class MainActivity : ComponentActivity() {
 
     //第一个修改 加了一行注释
+    //hoiwheofw
+
+    //weoihfoiw
+    //ewgewger
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
